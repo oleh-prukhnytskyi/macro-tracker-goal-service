@@ -2,9 +2,9 @@ package com.olehprukhnytskyi.macrotrackergoalservice.service;
 
 import com.olehprukhnytskyi.macrotrackergoalservice.dto.GoalResponseDto;
 import com.olehprukhnytskyi.macrotrackergoalservice.dto.UserDetailsRequestDto;
-import com.olehprukhnytskyi.macrotrackergoalservice.util.ActivityLevel;
-import com.olehprukhnytskyi.macrotrackergoalservice.util.Gender;
-import com.olehprukhnytskyi.macrotrackergoalservice.util.Goal;
+import com.olehprukhnytskyi.util.ActivityLevel;
+import com.olehprukhnytskyi.util.Gender;
+import com.olehprukhnytskyi.util.Goal;
 
 public class CalorieCalculatorService {
     public static GoalResponseDto calculateGoal(UserDetailsRequestDto goal) {

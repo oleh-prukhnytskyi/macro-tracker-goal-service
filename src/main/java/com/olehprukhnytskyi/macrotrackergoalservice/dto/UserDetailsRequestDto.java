@@ -1,8 +1,8 @@
 package com.olehprukhnytskyi.macrotrackergoalservice.dto;
 
-import com.olehprukhnytskyi.macrotrackergoalservice.util.ActivityLevel;
-import com.olehprukhnytskyi.macrotrackergoalservice.util.Gender;
-import com.olehprukhnytskyi.macrotrackergoalservice.util.Goal;
+import com.olehprukhnytskyi.util.ActivityLevel;
+import com.olehprukhnytskyi.util.Gender;
+import com.olehprukhnytskyi.util.Goal;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
